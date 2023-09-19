@@ -23,5 +23,11 @@ public class Test {
 
         nicolas.iniciarSesion();
 
+
+        estudiante.setNombre("Pepito");
+        System.out.println(estudiante.getNombre());
+
+
+
     }
 }
