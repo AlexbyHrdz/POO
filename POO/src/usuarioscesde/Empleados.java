@@ -32,4 +32,27 @@ public class Empleados extends Usuario{
         public void setArea(String area) {
                 this.area = area;
         }
+
+
+        //metodos
+
+        @Override
+        public void registrarUsuario() {
+                super.registrarUsuario();
+                System.out.println("Ingrese salario base");
+                salario= sc.nextDouble();
+                System.out.println("Ingrese el area");
+        }
+
+        @Override
+        public String toString() {
+                return super.toString();
+        }
+
+        @Override
+        public void iniciarSesion() {
+                super.iniciarSesion();
+        }
 }
+
+

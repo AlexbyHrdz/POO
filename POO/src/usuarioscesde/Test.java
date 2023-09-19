@@ -6,6 +6,7 @@ public class Test {
         Usuario usurioPepito = new Usuario();
         Estudiante estudiante = new Estudiante();
         Usuario nicolas= new Usuario();
+        Empleados empleado = new Empleados();
 
        /* String nombre="Nicolas";
         nicolas.setNombre(nombre);
@@ -17,15 +18,26 @@ public class Test {
 
         System.out.println(nicolas.getNombre());*/
 
-        nicolas.registrarUsuario();
+        //nicolas.registrarUsuario();
 
-        System.out.println(nicolas.toString());
+        //System.out.println(nicolas.toString());
 
-        nicolas.iniciarSesion();
+        //nicolas.iniciarSesion();
 
 
         estudiante.setNombre("Pepito");
         System.out.println(estudiante.getNombre());
+
+        empleado.setNombre("Maria");
+        System.out.println(empleado.getNombre());
+
+        Usuario estSoftware = new Estudiante();
+          estSoftware.registrarUsuario();
+        //estudiante.registrarUsuario();
+        //estudiante.toString();
+        //estudiante.iniciarSesion();
+
+
 
 
 

@@ -6,13 +6,13 @@ public class Usuario {
     static Scanner sc = new Scanner(System.in);
     //Primero creamos los atributos encapsulados con private
 
-    private int id;
-    private String nombre;
-    private String apellido;
-    private String correo;
-    private String contraseña;
-    private String direccion;
-    private String telefono;
+    protected int id;
+    protected String nombre;
+    protected String apellido;
+    protected String correo;
+    protected String contraseña;
+    protected String direccion;
+    protected String telefono;
 
     // Vamos a crear nuestro metodo constructor vacio
     public Usuario(){
@@ -105,6 +105,7 @@ public class Usuario {
                 '}';
     }
     public void iniciarSesion(){
+        System.out.println("Soy Usuario");
         System.out.println("Ingrese el correo registrado");
         String correRegistrado = sc.next();
         System.out.println("Ingrese la contraseña registrada");
