@@ -16,7 +16,7 @@ public class Curso {
         this.profesor = profesor;
         this.programa = programa;
     }
-    
+
 
     public int getIdCurso() {
         return idCurso;
