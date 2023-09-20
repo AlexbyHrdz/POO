@@ -25,18 +25,24 @@ public class Test {
         //nicolas.iniciarSesion();
 
 
-        estudiante.setNombre("Pepito");
-        System.out.println(estudiante.getNombre());
+        //estudiante.setNombre("Pepito");
+        //System.out.println(estudiante.getNombre());
 
-        empleado.setNombre("Maria");
-        System.out.println(empleado.getNombre());
+        //empleado.setNombre("Maria");
+        //System.out.println(empleado.getNombre());
 
-        Usuario estSoftware = new Estudiante();
-          estSoftware.registrarUsuario();
+        //Usuario estSoftware = new Estudiante();
+         // estSoftware.registrarUsuario();
         //estudiante.registrarUsuario();
         //estudiante.toString();
         //estudiante.iniciarSesion();
 
+
+        Profesor profePepito= new Profesor();
+
+        profePepito.registrarUsuario();
+        profePepito.toString();
+        profePepito.iniciarSesion();
 
 
 

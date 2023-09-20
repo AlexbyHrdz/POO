@@ -93,17 +93,18 @@ public class Usuario {
         return this.telefono;
     }
 
-    public String toString() {
-        return "Usuario{" +
+    public void imprimirUsuario() {
+        System.out.println(
                 "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", apellido='" + apellido + '\'' +
-                ", correo='" + correo + '\'' +
-                ", contraseña='" + contraseña + '\'' +
-                ", direccion='" + direccion + '\'' +
-                ", telefono='" + telefono + '\'' +
-                '}';
+                        ", nombre='" + nombre + '\'' +
+                        ", apellido='" + apellido + '\'' +
+                        ", correo='" + correo + '\'' +
+                        ", contraseña='" + contraseña + '\'' +
+                        ", direccion='" + direccion + '\'' +
+                        ", telefono='" + telefono + '\'' +
+                        '}');
     }
+
     public void iniciarSesion(){
         System.out.println("Soy Usuario");
         System.out.println("Ingrese el correo registrado");

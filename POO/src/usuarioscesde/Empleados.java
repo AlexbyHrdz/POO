@@ -1,6 +1,6 @@
 package usuarioscesde;
 
-public class Empleados extends Usuario{
+public class Empleados extends Academico{
 
         private  double salario;
         private String area;
@@ -44,14 +44,10 @@ public class Empleados extends Usuario{
                 System.out.println("Ingrese el area");
         }
 
-        @Override
-        public String toString() {
-                return super.toString();
-        }
 
         @Override
-        public void iniciarSesion() {
-                super.iniciarSesion();
+        public void imprimirUsuario() {
+                super.imprimirUsuario();
         }
 }
 
